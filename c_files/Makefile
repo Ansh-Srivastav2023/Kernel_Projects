@@ -23,7 +23,7 @@ run_tempsh:
 	cd ../busyboxx && ./temp.sh
 
 run_qemu:
-	cd ../busyboxx && qemu-system-x86_64 -kernel bzImage -initrd initrd.img -nographic -append "console=ttyS0"
+	cd ../busyboxx && qemu-system-x86_64 -kernel bzImage -initrd initrd.img
 
 run_clear:
 	clear
